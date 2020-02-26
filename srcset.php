@@ -25,7 +25,5 @@ function print_responsive_image_attr($image_id, $image_size, $max_width, $lazy =
 }
 ?>
 
-<?php //example use
-
-?>
+<?php //example use ?>
 <img <?php print_responsive_image_attr($image['id'], $image_size, $max_width, false) ?> alt="<?=$image['alt']; ?>">
